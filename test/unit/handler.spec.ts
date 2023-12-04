@@ -1,6 +1,7 @@
 import { createHandler } from "../../src/handler.js";
 import { context } from "@actions/github";
 import { expect } from "@infra-blocks/test";
+import { describe, it } from "node:test";
 
 describe("handler", function () {
   describe(createHandler.name, function () {
